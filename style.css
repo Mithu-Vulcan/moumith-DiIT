@@ -275,4 +275,14 @@ a {
 	align-self: flex-end;
 	font-size: 2rem;
 }
-/*#######################################################################  NEW ARRIVAL SECTION  #########################################################################*/
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+.footer * {
+	margin: 0;
+}
