@@ -204,6 +204,7 @@ a {
     margin: 0;
     padding: 0;
 	margin-bottom: 2rem;
+	margin-top: 2rem;
 }
 
 .items {
@@ -245,6 +246,33 @@ a {
     font-weight: 600;
     cursor: pointer;
     font-size: 1rem;
+	transition: all 0.3s ease;
 }
 
+.item button:hover {
+	scale: 1.05;
+}
+
+.statement-div {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.statement-div p{
+	margin: 0;
+}
+
+.statement {
+	font-size: 4rem;
+	padding-top: 3rem;
+}
+
+.author {
+	align-self: flex-end;
+	font-size: 2rem;
+}
 /*#######################################################################  NEW ARRIVAL SECTION  #########################################################################*/
