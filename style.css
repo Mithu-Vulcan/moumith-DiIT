@@ -1,0 +1,23 @@
+:root {
+	/* 🔤 Font Families */
+	--font-logo: "Epilogue", sans-serif;
+	--font-heading: "Playfair Display", serif;
+	--font-subheading: "Epilogue", sans-serif;
+	--font-body: "DM Sans", sans-serif;
+    
+	/* Base Colors */
+	--color-bg: #fafafa; /* Off-White Background */
+	--color-text: #2e2e2e; /* Soft Charcoal Text */
+	--color-muted: #b4b4b4; /* Misty Grey for Borders/Secondary Text */
+
+	/* Accent Colors */
+	--color-accent: #a6c8ff; /* Air Blue for Highlights */
+	--color-warm-accent: #e5dcc3; /* Dust Beige (optional warmth) */
+
+	/* UI Helpers */
+	--color-border: var(--color-muted);
+	--color-heading: var(--color-text);
+	--color-body: var(--color-text);
+	--color-link: var(--color-accent);
+	--color-link-hover: #7fb5ff;
+}
