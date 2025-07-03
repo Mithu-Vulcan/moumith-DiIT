@@ -290,3 +290,12 @@ a {
 .footer * {
 	margin: 0;
 }
+
+.availability {
+	padding-bottom: 0.5rem;
+	color: green;
+}
+
+.out {
+	color: red;
+}
